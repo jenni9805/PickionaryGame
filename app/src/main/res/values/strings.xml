@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">PickionaryGame</string>
     <string name="logo">Logo</string>
+    <string name="info">INFORMACIÓN</string>
+    <string name="desing">Desarrollado por:</string>
+    <string name="names">RMS, SRA y JRV</string>
+    <string name="version">V 1.0</string>
 </resources>
