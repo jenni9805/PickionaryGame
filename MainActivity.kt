@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         }
         imagePlay.setOnClickListener(){
             val intent4=Intent(this,PlayGame::class.java)
-            startActivity(intent)
+            startActivity(intent4)
 
         }
         imageAbout.setOnClickListener(){
