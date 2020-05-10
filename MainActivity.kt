@@ -19,33 +19,25 @@ class MainActivity : AppCompatActivity() {
             val intent=Intent(this,Settings::class.java)
             startActivity(intent)
         }
+        imageUnlock.setOnClickListener(){
+            val intent2=Intent(this,UnlockWords::class.java)
+            startActivity(intent2)
+        }
+        imageInstructions.setOnClickListener(){
+            val intent3=Intent(this,Instructions::class.java)
+            startActivity(intent3)
+        }
+        imagePlay.setOnClickListener(){
+            val intent4=Intent(this,PlayGame::class.java)
+            startActivity(intent)
 
+        }
         imageAbout.setOnClickListener(){
             val mDialogView=LayoutInflater.from(this).inflate(R.layout.activity_about,null)
             val mBuilder=AlertDialog.Builder(this)
                 .setView(mDialogView)
                 .setTitle("About")
             val mAlertDialog=mBuilder.show()
-        }
-
-        imageSettings.setOnClickListener(){
-            val intent = Intent(this, Settings::class.java)
-            startActivity(intent)
-        }
-        imageUnlock.setOnClickListener(){
-            val intent2 = Intent(this, Settings::class.java)
-            startActivity(intent2)
-
-        }
-        imageInstructions.setOnClickListener(){
-            val intent3 = Intent(this, Settings::class.java)
-            startActivity(intent3)
-
-        }
-        imagePlay.setOnClickListener(){
-            val intent4 = Intent(this, Settings::class.java)
-            startActivity(intent4)
-
         }
         }
 }
