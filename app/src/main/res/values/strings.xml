@@ -1,8 +1,17 @@
 <resources>
     <string name="app_name">PickionaryGame</string>
     <string name="logo">Logo</string>
-    <string name="info">INFORMACIÓN</string>
-    <string name="desing">Desarrollado por:</string>
+    <string name="info">INFORMATION</string>
+    <string name="desing">Developed by:</string>
     <string name="names">RMS, SRA y JRV</string>
     <string name="version">V 1.0</string>
+    <string name="instruction">INSTRUCTIONS</string>
+    <string name="play">PLAY GAME</string>
+    <string name="settings">SETTINGS</string>
+    <string name="unlock">UNLOCKED WORDS</string>
+    <string name="ingles">English</string>
+    <string name="espanol">Spanish</string>
+    <string name="desactivar">Turn off sound</string>
+    <string name="balon">Ball</string>
+    <string name="nivel">Level</string>
 </resources>

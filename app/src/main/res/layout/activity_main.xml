@@ -56,7 +56,7 @@
             android:scaleType="fitCenter"
             android:contentDescription="Unlock words"
             android:backgroundTint="@color/colorPrimary"
-            app:srcCompat="@drawable/unlook" />
+            app:srcCompat="@drawable/goal" />
 
         <ImageButton
             android:id="@+id/imageSettings"
@@ -73,10 +73,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:scaleType="fitCenter"
-            android:contentDescription="About"
             android:backgroundTint="@color/colorPrimary"
-            app:srcCompat="@drawable/shapes" />
+            android:contentDescription="About"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/exclamation" />
     </LinearLayout>
 
 

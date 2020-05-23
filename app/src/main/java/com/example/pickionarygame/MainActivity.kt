@@ -20,6 +20,21 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        imageUnlock.setOnClickListener(){
+            val intent=Intent(this,UnlockWords::class.java)
+            startActivity(intent)
+        }
+
+        imageInstructions.setOnClickListener(){
+            val intent=Intent(this,Instructions::class.java)
+            startActivity(intent)
+        }
+
+        imagePlay.setOnClickListener(){
+            val intent=Intent(this,PlayGame::class.java)
+            startActivity(intent)
+        }
+
         imageAbout.setOnClickListener(){
             val mDialogView=LayoutInflater.from(this).inflate(R.layout.activity_about,null)
             val mBuilder=AlertDialog.Builder(this)
