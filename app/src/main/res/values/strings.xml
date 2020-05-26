@@ -14,4 +14,8 @@
     <string name="desactivar">Turn off sound</string>
     <string name="balon">Ball</string>
     <string name="nivel">Level</string>
+    <string name="lineag">Thick line</string>
+    <string name="linead">Thin line</string>
+    <string name="borar">Eraser</string>
+    <string name="color">Change color</string>
 </resources>

@@ -15,4 +15,8 @@
     <string name="desactivar">Desactivar sonido</string>
     <string name="balon">Balon</string>
     <string name="nivel">Nivel</string>
+    <string name="lineag">Linea gruesa</string>
+    <string name="linead">Linea delgada</string>
+    <string name="borar">Borrar</string>
+    <string name="color">Cambia el color</string>
 </resources>
