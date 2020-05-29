@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">PickionaryGame</string>
+    <string name="app_name">Pickionary</string>
     <string name="logo">Logotipo</string>
     <string name="info">INFORMACIÓN</string>
     <string name="desing">Desarrollado por:</string>
